@@ -1,4 +1,4 @@
-### 강한참조 약한참조 HashMap 예제
+### 강한 참조 약한 참조 HashMap 예제
 ~~~ java 
 
 public class ReferenceMain {
