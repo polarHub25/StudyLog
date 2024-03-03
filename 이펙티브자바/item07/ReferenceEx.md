@@ -29,3 +29,9 @@ public class ReferenceMain {
 
     }
 }
+~~~
+### 실행 결과
+
+![image](https://github.com/polarHub25/StudyLog/assets/83585035/c4fa4241-51eb-4e42-bafa-26f085249bea)
+
+
