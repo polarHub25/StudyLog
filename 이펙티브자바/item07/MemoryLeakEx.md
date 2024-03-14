@@ -15,6 +15,11 @@ class EventSource {
         listeners.add(listener);
     }
 
+    // 리스너 등록 해제 메소드 추가
+    //public void unregisterListener(EventListener listener) {
+    //    listeners.remove(listener);
+    //}
+
     // 이벤트 발생 시 모든 리스너에게 알림
     public void notifyListeners() {
         for (EventListener listener : listeners) {
@@ -33,12 +38,16 @@ class ExampleListener implements EventListener {
 public class Main {
     public static void main(String[] args) {
         EventSource source = new EventSource();
+        ExampleListener listener = new ExampleListener();
         
         // 리스너 등록
-        source.registerListener(new ExampleListener());
+        source.registerListener(listener);
         
         // 이벤트 발생, 모든 리스너에게 알림
         source.notifyListeners();
+
+        // 리스너 등록 해제
+        //source.unregisterListener(listener);
     }
 }
 
