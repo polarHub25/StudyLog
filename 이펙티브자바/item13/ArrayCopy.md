@@ -36,8 +36,9 @@ public class ArrayCopy {
 
     public static void main(String[] args) {
         int[] orgArr = new int[1000000];
-        int[] copyArr = new int[1000000];
+        
         long startTime = System.nanoTime();
+        int[] copyArr = new int[1000000];
         System.arraycopy(orgArr, 0, copyArr, 0, orgArr.length);
         long endTime = System.nanoTime();
         long duration = endTime - startTime;
@@ -59,4 +60,5 @@ public class ArrayCopy {
 ~~~
 
 ### 실행예제
-![image](https://github.com/polarHub25/StudyLog/assets/83585035/5a4a6213-2533-4144-a6db-fff76262d406)
+![image](https://github.com/polarHub25/StudyLog/assets/83585035/e4136b2e-d09f-41b6-9f17-ffcd11fbcfe2)
+
