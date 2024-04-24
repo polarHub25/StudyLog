@@ -1,4 +1,4 @@
-### 얕은 복사, 깊은 복사 예제
+### final이 선언된 배열 예제
 ~~~ java 
 
 public class FinalArray {
